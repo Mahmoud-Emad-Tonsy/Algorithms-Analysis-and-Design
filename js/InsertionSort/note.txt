@@ -1,15 +1,21 @@
-Small Datasets:
- When the dataset is relatively small,
-  insertion sort can be an efficient sorting algorithm. 
-  It has low overhead and is simple to implement, making it suitable for sorting small arrays or lists.
+Small Datasets: When the dataset is relatively small,
+ insertion sort can be an efficient sorting algorithm. 
+ It has low overhead and is simple to implement,
+ making it suitable for sorting small arrays or lists.
 
-Online Algorithm: Insertion sort is an online algorithm, meaning it can sort a list as it receives new elements. This property makes it useful in situations where data is continuously arriving and needs to be sorted dynamically, such as processing real-time streaming data or handling user inputs in a graphical user interface.
+Online Algorithm: Insertion sort is an online algorithm,
+ meaning it can sort a list as it receives new elements. 
+ This property makes it useful in situations where data is continuously
+  arriving and needs to be sorted dynamically,
+   such as processing real-time streaming data or handling user inputs in a graphical user interface.
 
-Nearly Sorted Data: Insertion sort performs well on data that is already nearly sorted. In real-world scenarios where the input data is partially sorted or almost in order, insertion sort can efficiently handle such cases without unnecessary overhead.
+Nearly Sorted Data: Insertion sort performs well on data that is already nearly sorted.
+ In real-world scenarios where the input data is partially sorted or almost in order, 
+ insertion sort can efficiently handle such cases without unnecessary overhead.
 
-Educational Purposes: Insertion sort is often used in educational settings to teach the concept of sorting algorithms due to its simplicity and ease of understanding. Students can grasp the basic principles of sorting by implementing and analyzing insertion sort algorithms.
 
-Auxiliary Sorting: In larger sorting algorithms, insertion sort can be used as a subroutine for sorting small subarrays or as part of more complex algorithms like Timsort, which uses a hybrid of insertion sort and merge sort.
+Auxiliary Sorting: In larger sorting algorithms,
+ insertion sort can be used as a subroutine for sorting small subarrays or as part of more complex algorithms like Timsort, which uses a hybrid of insertion sort and merge sort.
 
 Embedded Systems: In resource-constrained environments such as embedded systems or microcontrollers, where memory and processing power are limited, insertion sort's simplicity and low overhead make it a viable option for sorting small datasets efficiently.
 
