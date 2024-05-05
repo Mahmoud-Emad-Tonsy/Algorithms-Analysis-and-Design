@@ -19,11 +19,14 @@ function insertionSort(arr){
 
     return arr
 }
-console.log(insertionSort([80, 90, 60 , 30, 50, 70]));
+console.log(insertionSort([80, 100, 60 , 30, 50, 70]));
 
 // Quadratic Time complexity
+
 // Bestcase o(n)
-// Averagecase o(n^2)
-// Worstcase o(n^2)  
+
+// AverageCase o(n^2)
+
+// WorstCase o(n^2)  
 
 
